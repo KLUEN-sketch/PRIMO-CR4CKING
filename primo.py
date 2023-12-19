@@ -166,7 +166,7 @@ logo =f"""\x1b[1;97m
   
 ------------------------------------------------------------------------
 \33[1;36m ᴀᴜᴛʜᴏʀ    : PRIMO SOLTERO
-\33[1;36m ᴠᴇʀsɪᴏɴ    : 0.2
+\33[1;36m ᴠᴇʀsɪᴏɴ    : 1.1
 \33[1;36m ғᴀᴄᴇʙᴏᴏᴋ  : PRIMO SOLTERO
 \33[1;36m ᴛᴏᴏʟ sᴛᴀᴛᴜs : TRIAL
 ------------------------------------------------------------------------"""
@@ -212,11 +212,11 @@ def x2():
 def menu_apikey():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id ='Its-PRIMO' +'→'.join(uuid)+str(os.getlogin())
-  server = requests.get(f'https://github.com/Raki-404/Aprobel-DENV/blob/main/A.txt')
+  server = requests.get(f'https://github.com/KLUEN-sketch/PRIMO-CR4CKING /blob/main/A.txt')
   x1()
   x2()
   try:
-    httpCaht = requests.get(f"https://github.com/Raki-404/Aprobel-DENV/blob/main/A.txt").text
+    httpCaht = requests.get(f"https://github.com/KLUEN-sketch/PRIMO-CR4CKING /blob/main/A.txt").text
     if id in httpCaht:
       print(f"\033[1;92m   YOUR KEY APROVED  ");time.sleep(2)
       msg = str(os.geteuid())
