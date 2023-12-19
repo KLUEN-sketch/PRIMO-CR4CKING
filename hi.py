@@ -173,12 +173,12 @@ def asha(uid):
     else:alif=''
     return alif
 #_________[ LOGIN KEY ]______>>
-CorrectUsername = 'FREE'
+CorrectUsername = 'PRIMO-CR4CKING'
 key = 'true'
 while key == 'true':
     username = input('\033[0;97m[•]\033[1;96m•────➤\033[1;92mENTER KEY \033[1;91m: \x1b[1;92m')
     if username == CorrectUsername:
-            print(f'\033[1;37m-----------------------------------------------\n\033[0;97m[•]\033[1;32m LOGGED IN SATAN TOOL SUCCESSFULLY') 
+            print(f'\033[1;37m-----------------------------------------------\n\033[0;97m[•]\033[1;32m LOGGED IN PRIMO TOOL SUCCESSFULLY') 
             time.sleep(1)
             clear()
             key = 'false'
