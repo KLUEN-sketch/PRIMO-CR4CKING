@@ -123,7 +123,7 @@ def asha(uid):
     elif len(uid)==7:
         alif = ' ACCOUNT 2006/2007 √'
     else:alif=''
-    return alif ():
+    return alif
 
 def fucked():
 	print(' Server Loadin.......')
