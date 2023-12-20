@@ -95,10 +95,6 @@ tokenku=[]
 
 print('\033[1;92m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 def clear ():
-        os.system(f'clear')
-        print(logo)
-print('\033[1;92m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-def clear ():
 ('----------pass key---------')
 correct username = FREE
 key = 'true'
