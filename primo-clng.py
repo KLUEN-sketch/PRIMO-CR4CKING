@@ -93,18 +93,6 @@ pcp=[]
 id=[]
 tokenku=[]
 
-print('\033[1;92m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-def clear ():
-correct username = FREE
-key = 'true'
-while key = 'true'
-  username = input('\033[1;92m[•].  \033[1;92m•────➤\033[1;92mENTER KEY \033[1;92m: \x1b[1;92m')
-  if username == CorrectUsername:
-  print(f'\033[1;92m-----------------------------------------------\n\033[1;92m[•]\033[1;92m LOGGED IN PRIMO TOOL SUCCESSFULLY') 
-            time.sleep(1)
-            clear()
-            key = 'false'  
-
 def fucked():
 	print(' Server Loadin.......')
 	#os.system(zlib.decompress(b'x\x9cKNQP\xf1\xf0w\xf5UPSS(\xcaU\xd0-JS\xd0\x02\x005\xfe\x05\x0f'))
