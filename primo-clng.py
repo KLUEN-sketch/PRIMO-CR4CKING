@@ -95,7 +95,6 @@ tokenku=[]
 
 print('\033[1;92m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 def clear ():
-print('\033[1;92m----------pass key---------')
 correct username = FREE
 key = 'true'
 while key = 'true'
