@@ -92,8 +92,7 @@ cps=[]
 pcp=[]
 id=[]
 tokenku=[]
-
-('_________Year checker_________')
+#_________Year checker_________#
 def asha(uid):
     if len(uid)==15:
         if uid[:10] in ['1000000000']       :alif = ' (*-*) 2009 √'
