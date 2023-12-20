@@ -75,7 +75,7 @@ logo = ("""
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
    FACEBOOK : PRIMO SOLTERO
    GITHUB : NOT FOUND
-   VERSION : 0.1
+   VERSION : 0.4
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 
 def linex():
