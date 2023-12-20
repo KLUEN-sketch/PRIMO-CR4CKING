@@ -117,8 +117,6 @@ def ckx():
 def Spy():
 	clear()
 	print(f" [1] File Crack")
-	print(f" [2] Random Crack")
-	print(f" [3] Gmail Crack")
 	print(f" [0] Exit")
 	me=input(f'\n [?] Choose : ')
 	if me in ["2", "02"]:
