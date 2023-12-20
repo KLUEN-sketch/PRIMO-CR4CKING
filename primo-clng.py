@@ -78,7 +78,7 @@ logo = ("""
  ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mTRIAL                      
  ┃ [\033[1;91m✓\033[1;92m] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                    
  ┃ [\033[1;91m✓\033[1;92m] FACEBOOK  \033[1;91m: \033[1;92mwww.facebook.com/100015447154182              
- ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.3          
+ ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m0.4          
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 
 def linex():
@@ -92,37 +92,23 @@ cps=[]
 pcp=[]
 id=[]
 tokenku=[]
-#_________Year checker_________#
-def asha(uid):
-    if len(uid)==15:
-        if uid[:10] in ['1000000000']       :alif = ' (*-*) 2009 √'
-        elif uid[:9] in ['100000000']       :alif = ' ACCOUNT  2009 √'
-        elif uid[:8] in ['10000000']        :alif = ' ACCOUNT 2009 √'
-        elif uid[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:alif = ' ACCOUNT 2009 √'
-        elif uid[:7] in ['1000006','1000007','1000008','1000009']:alif = ' ACCOUNT 2010 √'
-        elif uid[:6] in ['100001']          :alif = ' ACCOUNT 2010/2011 √'
-        elif uid[:6] in ['100002','100003'] :alif = ' ACCOUNT 2011/2012 √'
-        elif uid[:6] in ['100004']          :alif = ' ACCOUNT 2012/2013 √'
-        elif uid[:6] in ['100005','100006'] :alif = ' ACCOUNT 2013/2014 √'
-        elif uid[:6] in ['100007','100008'] :alif = ' ACCOUNT 2014/2015 √'
-        elif uid[:6] in ['100009']          :alif = ' ACCOUNT 2015 √'
-        elif uid[:5] in ['10001']           :alif = ' ACCOUNT 2015/2016 √'
-        elif uid[:5] in ['10002']           :alif = ' ACCOUNT 2016/2017 √'
-        elif uid[:5] in ['10003']           :alif = ' ACCOUNT 2018/2019 √'
-        elif uid[:5] in ['10004']           :alif = ' ACCOUNT 2019/2020 √'
-        elif uid[:5] in ['10005']           :alif = ' ACCOUNT 2020 √'
-        elif uid[:5] in ['10006','10007','']:alif = ' ACCOUNT 2021 √'
-        elif uid[:5] in ['10008']           :alif = ' ACCOUNT 2022 √'
-        elif uid[:5] in ['10009']           :alif = ' ACCOUNT 2023 √'
-        else:alif=''
-    elif len(uid) in [9,10]:
-        alif = ' ACCOUNT 2008/2009 √'
-    elif len(uid)==8:
-        alif = ' ACCOUNT 2007/2008 √'
-    elif len(uid)==7:
-        alif = ' ACCOUNT 2006/2007 √'
-    else:alif=''
-    return alif
+
+print('\033[1;92m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+def clear ():
+        os.system(f'clear')
+        print(logo)
+print('\033[1;92m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+def clear ():
+('----------pass key---------')
+correct username = FREE
+key = 'true'
+while key = 'true'
+  username = input('\033[1;92m[•].  \033[1;92m•────➤\033[1;92mENTER KEY \033[1;92m: \x1b[1;92m')
+  if username == CorrectUsername:
+  print(f'\033[1;92m-----------------------------------------------\n\033[1;92m[•]\033[1;92m LOGGED IN PRIMO TOOL SUCCESSFULLY') 
+            time.sleep(1)
+            clear()
+            key = 'false'  
 
 def fucked():
 	print(' Server Loadin.......')
@@ -277,7 +263,7 @@ def ffb1(ids,names,passlist):
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
                                         print(f'\r\r\x1b[38;5;126m [PRIMO-DEAD] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/PRIMK-DEAD.txt', 'a').write(ids+'|'+pas+'\n')
+                                        open(f'/sdcard/PRIMO-DEAD.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
